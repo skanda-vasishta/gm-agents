@@ -16,18 +16,23 @@ async def main():
         - Go to: https://play.basketball-gm.com/l/1/trade
 
         Step 2: Execute the Following Actions Sequentially (using Playwright or equivalent browser automation):
-        1. Click the link with role "link" and name "Create a new league".
-        2. Click the button with role "button" and name "Random".
-        3. Select the option "real" from the combobox at index 2.
-        4. Click the second button with role "button" and name "Random" (nth=1).
-        5. Click the button with role "button" and name "Create League Processing".
-
-        Step 3: After the League is Created
-        - Navigate to the main league page: https://play.basketball-gm.com/l/1
-        - From this point forward, only interact with the game interface within this league. Do not leave this page or navigate to any external sites.
+        ESSENTIALLY, RUN THE EQUIVALENT OF THE FOLLOWING ACTIONS:
+        1) await page.goto("https://play.basketball-gm.com/l/1/trade")
+        2) await page.get_by_role("link", name="Create a new league").click()
+        3) await page.get_by_role("combobox").nth(2).select_option("real")
+        4) await page.get_by_role("button", name="Create League Processing").click()
+        5) await page.get_by_role("button", name="Play", exact=True).click()
+        6) await page.get_by_role("button", name="Until regular season").click()
+        7) await page.get_by_role("button", name="Play", exact=True).click()
+        8) await page.get_by_role("button", name="Until trade deadline").click()
 
         Step 4: Strategic Gameplay
-        - Your objective is to make decisions and take actions that will maximize your team's chances of winning the championship.
+        IF YOU HAVE NOT DONE THIS ALREADY, DO THE FOLLOWING FOUR STEPS!!!!!
+         5) await page.get_by_role("button", name="Play", exact=True).click() --- CLICK ON THE GREEN PLAY BUTTON AT THE TP OF THE SCREEN
+        6) await page.get_by_role("button", name="Until regular season").click()
+        7) await page.get_by_role("button", name="Play", exact=True).click()
+        8) await page.get_by_role("button", name="Until trade deadline").click() --- THIS IS CRUCIAL: MAKE SURE YOU SELECT THE RIGHT DROP DOWN MENU: "simulate until trade deadline"
+        - Your objective is to make decisions and take actions that will maximize your team's chances of winning the championship, starting at the trade deadline.
         - Analyze the current state of your team, roster, finances, and available actions.
         - Consider simulating games, making trades, signing free agents, adjusting lineups, and any other actions that could improve your team's performance.
         - To simulate, select the dropdown at the top left of the screen that says "Play" , and then you can select "one day", "one month", "one week", "until trade deadline", "until all-star events", or "until playoffs"/
@@ -38,6 +43,14 @@ async def main():
             4) Once you get to the draft, greedily make the best draft decision, then resign players based on contracts, performance, and rating.
         - Always explain your reasoning for each action you take.
         - Prioritize actions that have the highest expected impact on winning games and ultimately securing the championship.
+
+        AFTER THIS CRITICAL STEP, RUN THE EQUIVALENT OF THE FOLLOWING ACTIONS WHEN READY
+        1) await page.get_by_role("button", name="Play", exact=True).click()
+        2) await page.get_by_role("button", name="Until playoffs").click()
+        3) await page.get_by_role("button", name="Play", exact=True).click()
+        4) await page.get_by_role("button", name="Through playoffs").click()
+        5) await page.get_by_role("button", name="Play", exact=True).click()
+        6) await page.get_by_role("link", name="Read new message").click()
 
         Guidelines:
         - Be methodical and strategic in your approach.
