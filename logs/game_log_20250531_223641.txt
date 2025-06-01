@@ -1,0 +1,66 @@
+=== Basketball GM Game Log ===
+Started: 2025-05-31T22:36:41.669925
+==================================================
+
+{
+  "timestamp": "2025-05-31T22:37:56.761697",
+  "action_type": "simulation",
+  "details": {
+    "target": "the start of the regular season",
+    "batch_size": 1,
+    "current_record": "0-0"
+  },
+  "game_state": {
+    "current_season": 1,
+    "current_phase": "regular_season",
+    "team_wins": 0,
+    "team_losses": 0,
+    "salary_cap_used": 0.0,
+    "roster_size": 0,
+    "available_cap_space": 0.0,
+    "team_rating": 0,
+    "playoff_position": "Unknown",
+    "roster_data": null,
+    "upcoming_schedule": null,
+    "trade_offers": null,
+    "free_agents": null,
+    "draft_prospects": null
+  },
+  "actions_this_phase": {
+    "trades": 0,
+    "fa_signings": 0,
+    "lineup_changes": 0
+  },
+  "context": {}
+}
+{
+  "timestamp": "2025-05-31T22:40:13.151225",
+  "action_type": "simulation",
+  "details": {
+    "target": "the trade deadline",
+    "batch_size": 1,
+    "current_record": "0-0"
+  },
+  "game_state": {
+    "current_season": 1,
+    "current_phase": "regular_season",
+    "team_wins": 0,
+    "team_losses": 0,
+    "salary_cap_used": 0.0,
+    "roster_size": 0,
+    "available_cap_space": 0.0,
+    "team_rating": 0,
+    "playoff_position": "Unknown",
+    "roster_data": null,
+    "upcoming_schedule": null,
+    "trade_offers": null,
+    "free_agents": null,
+    "draft_prospects": null
+  },
+  "actions_this_phase": {
+    "trades": 0,
+    "fa_signings": 0,
+    "lineup_changes": 0
+  },
+  "context": {}
+}
