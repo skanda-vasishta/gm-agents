@@ -6,7 +6,7 @@ from openai import OpenAI
 import base64
 import json
 
-
+# npx playwright codegen https://play.basketball-gm.com
 class GameState(BaseModel):
     record: str
     team_rating: str

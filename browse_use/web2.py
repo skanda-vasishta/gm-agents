@@ -38,7 +38,7 @@ class SeasonState(BaseModel):
 class PhaseManager:
     def __init__(self):
         self.current_phase = "trade_deadline"
-        self.actions_remaining = 3  # Start with 10 actions at trade deadline
+        self.actions_remaining = 20  # Start with 10 actions at trade deadline
         self.logger = logging.getLogger(__name__)
 
     async def handle_phase_change(self, page: Page) -> None:
@@ -198,7 +198,9 @@ async def router_hook(agent: Agent):
 
         # Handle phase changes
         await phase_manager.handle_phase_change(page)
-        
+        if season_state.phase == "trade_deadline" and phase_manager.actions_remaining == 1:
+            await evaluate_trade_proposals(page)
+
         # Check if we have actions remaining
         if not phase_manager.decrement_counter():
             logger.info(f"No actions left in phase {season_state.phase}. Please transition to the next phase.")
@@ -251,7 +253,53 @@ async def get_state(agent: Agent):
         state_json = game_state.model_dump_json()
         return ActionResult(extracted_content=state_json)
 
+async def evaluate_trade_logic(page):
+    # Take a screenshot of the trade proposal area using the correct selector
+    element = page.locator("#actual-actual-content > div > div.col-md-3 > div > div.row.trade-items.mb-3")
+    screenshot = await element.screenshot()
+    base64_image = base64.b64encode(screenshot).decode("utf-8")
 
+    client = OpenAI()
+    prompt = (
+        "You are an expert basketball GM. "
+        "Given the trade proposal shown in the image, respond with 'ACCEPT' if you recommend accepting/proposing the trade, "
+        "or 'REJECT' if not. Only respond with 'ACCEPT' or 'REJECT'."
+    )
+    response = client.responses.create(
+        model="gpt-4.1",
+        input=[
+            {
+                "role": "user",
+                "content": [
+                    {"type": "input_text", "text": prompt},
+                    {"type": "input_image", "image_url": f"data:image/png;base64,{base64_image}"}
+                ]
+            }
+        ]
+    )
+    result = response.output_text.strip().upper()
+    return result == "ACCEPT"
+
+async def evaluate_trade_proposals(page):
+    # index 33: Trade 
+    await page.get_by_role("link", name="Trade Proposals").click()
+    negotiate_buttons = await page.query_selector_all('button:has-text("Negotiate")')
+    if not negotiate_buttons:
+        return False
+
+    for i, btn in enumerate(negotiate_buttons):
+        await btn.click()
+        # Extract trade info (e.g., via page.locator(...).inner_text())
+        # trade_info = await page.locator("...").inner_text()
+        # Evaluate trade (rule/LLM/human)
+        is_good_trade = await evaluate_trade_logic(page)  # implement this
+        if is_good_trade:
+            await page.get_by_role("button", name="Propose trade").click()
+            return True
+        # else, close/dismiss and continue
+        await page.go_back()  # or close modal/dialog
+
+    return False
 
 async def main():
     with open("instructions.txt", "r") as f:
