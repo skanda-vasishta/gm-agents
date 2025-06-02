@@ -1493,3 +1493,330 @@ Milwaukee Bucks is trading Damian Lillard, Joel Embiid and 2 pick(s) to Philadel
 AI Decision: ACCEPT
 User Feedback: yes
 ==================================================
+
+=== Trade Evaluation 2025-06-02 12:10:19 ===
+Trade Information:
+Trade Proposal:
+Memphis Blues receive:
+- Wendell Moore Jr. ($2.54M)
+
+Charlotte Queens receive:
+- Yuki Kawamura ($600k)
+- Zyon Pullin ($600k)
+
+Salary implications:
+- Memphis Blues payroll: $172.92M
+- Charlotte Queens payroll: $169.31M
+- Both teams over salary cap ($140.6M)
+AI Decision: ACCEPT
+Confidence: 0.77
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:11:04 ===
+Trade Information:
+Trade Proposal:  
+Memphis Blues receive:  
+- Zach Collins ($17.41M)  
+- E.J. Liddell ($710k)  
+- 2025 2nd round pick (from SAC, 20–30)  
+
+Chicago Whirlwinds receive:  
+- Scotty Pippen Jr. ($2.4M)  
+- Lamar Stevens ($2.6M)  
+- Marvin Bagley III ($12.5M)  
+- 2026 2nd round pick (from MIA, 19–30)  
+
+Salary implications:  
+- Memphis Blues payroll: $172.2M  
+- Chicago Whirlwinds payroll: $153.3M  
+- Both teams over salary cap ($140.6M)
+AI Decision: ACCEPT
+Confidence: 0.74
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:11:13 ===
+Trade Information:
+Trade Proposal:
+Memphis Blues receive:
+- Oso Ighodaro ($2.25M)
+- TyTy Washington Jr. ($600k)
+
+Phoenix Vultures receive:
+- Vince Williams Jr. ($2.3M)
+- Yuki Kawamura ($600k)
+- Cam Spencer ($600k)
+
+Salary implications:
+- Memphis Blues payroll: $171.55M
+- Phoenix Vultures payroll: $231.22M
+- Both teams over salary cap ($140.6M)
+AI Decision: ACCEPT
+Confidence: 0.74
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:11:23 ===
+Trade Information:
+Trade Proposal:
+Memphis Blues receive:
+- Kevin Durant ($52.94M)
+- Devin Booker ($55.11M)
+- Ryan Dunn ($5.03M)
+- Vince Williams Jr. ($2.3M)
+- 2025 1st round pick (from CLE)
+
+Phoenix Vultures receive:
+- Jaylen Wells ($2.25M)
+
+Salary implications:
+- Memphis Blues payroll: $284.68M
+- Phoenix Vultures payroll: $118.09M
+- Both teams over salary cap ($140.6M)
+AI Decision: ACCEPT
+Confidence: 0.76
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:12:01 ===
+Trade Information:
+Trade Proposal:
+Memphis Blues receive:
+- Marcus Smart ($20.9M)
+
+Washington Monuments receive:
+- John Konchar ($6.17M)
+- Brandon Clarke ($12.5M)
+- Zyon Pullin ($600k)
+- 2025 2nd round pick (from HOU, 28–20)
+
+Salary implications:
+- Memphis Blues payroll: $173.18M
+- Washington Monuments payroll: $186.28M
+- Both teams over salary cap ($140.6M)
+AI Decision: ACCEPT
+Confidence: 0.72
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:13:20 ===
+Trade Information:
+Trade Proposal:
+
+Denver High receives:
+- Tre Mann ($4.91M)
+- Tidjane Salaün ($8.51M)
+- Grant Williams ($13.65M)
+- KJ Simpson ($600k)
+
+Charlotte Queens receives:
+- Peyton Watson ($4.36M)
+- Dario Šarić ($5.3M)
+
+Salary implications:
+- Denver High payroll: $239.92M
+- Charlotte Queens payroll: $152.6M
+- Both teams over salary cap ($140.6M)
+AI Decision: ACCEPT
+Confidence: 0.74
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:13:57 ===
+Trade Information:
+Trade Proposal:
+Denver High receives:
+- Zach Collins ($17.41M)
+- 2025 2nd round pick (from SAC, 24-26)
+- 2028 2nd round pick
+
+Chicago Whirlwinds receives:
+- Michael Porter Jr. ($38.33M)
+
+Salary implications:
+- Denver High payroll: $200.99M
+- Chicago Whirlwinds payroll: $174.84M
+- Both teams over salary cap ($140.6M)
+AI Decision: ACCEPT
+Confidence: 0.74
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:14:38 ===
+Trade Information:
+Trade Proposal:
+Denver High receives:
+- 2025 2nd round pick
+
+Philadelphia Cheesesteaks receive:
+- Russell Westbrook ($3.39M)
+- Hunter Tyson ($2.17M)
+- Dario Šarić ($5.3M)
+- DeAndre Jordan ($2.09M)
+
+Salary implications:
+- Denver High payroll: $208.96M
+- Philadelphia Cheesesteaks payroll: $214.16M
+- Both teams over salary cap ($140.6M)
+AI Decision: ACCEPT
+Confidence: 0.57
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:15:15 ===
+Trade Information:
+Trade Proposal:
+Team A (Denver High) receives:
+- TyTy Washington Jr. ($600k)
+
+Team B (Phoenix Vultures) receives:
+- Spencer Jones ($600k)
+
+Salary implications:
+- Denver High payroll: $221.91M
+- Phoenix Vultures payroll: $230.57M
+- Both teams over salary cap ($140.6M)
+AI Decision: ACCEPT
+Confidence: 0.69
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:15:25 ===
+Trade Information:
+Trade Proposal:
+Denver High receives:
+- Bilal Coulibaly ($7.82M)
+- 2027 2nd round pick (from BKN, 19–31)
+
+Washington Monuments receive:
+- Christian Braun ($4.92M)
+- Hunter Tyson ($2.17M)
+
+Salary implications:
+- Denver High payroll: $222.64M
+- Washington Monuments payroll: $187.18M
+- Both teams over salary cap ($140.6M)
+AI Decision: ACCEPT
+Confidence: 0.67
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:15:34 ===
+Trade Information:
+Trade Proposal:
+Denver High receives:
+- Moussa Diabaté ($2.37M)
+
+Charlotte Queens receives:
+- Vlatko Čančar ($2.09M)
+- 2027 2nd round pick (from BKN, 19–31)
+
+Salary implications:
+- Denver High payroll: $222.92M
+- Charlotte Queens payroll: $170.33M
+- Both teams over salary cap ($140.6M)
+AI Decision: ACCEPT
+Confidence: 0.76
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:15:44 ===
+Trade Information:
+Trade Proposal:
+Denver High receives:
+- Zach Collins ($17.41M)
+- 2025 2nd round pick (from SAC, 24-26)
+- 2028 2nd round pick
+
+Chicago Whirlwinds receive:
+- Michael Porter Jr. ($38.33M)
+
+Salary implications:
+- Denver High payroll: $202M
+- Chicago Whirlwinds payroll: $174.84M
+- Both teams over salary cap ($140.6M)
+AI Decision: ACCEPT
+Confidence: 0.74
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:16:21 ===
+Trade Information:
+Trade Proposal:
+Team A (Denver High) receives:
+- 2025 2nd round pick
+
+Team B (Philadelphia Cheesesteaks) receives:
+- Russell Westbrook ($3.39M)
+- Jalen Pickett ($2.17M)
+- Dario Šarić ($5.3M)
+- DeAndre Jordan ($2.09M)
+
+Salary implications:
+- Denver High payroll: $209.97M
+- Philadelphia Cheesesteaks payroll: $214.16M
+- Both teams over salary cap ($140.6M)
+AI Decision: ACCEPT
+Confidence: 0.60
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:16:58 ===
+Trade Information:
+Trade Proposal:  
+Denver High receives:  
+- Damion Lee ($2.09M)
+  
+Phoenix Vultures receive:  
+- DeAndre Jordan ($2.09M)
+  
+Salary implications:  
+- Denver High payroll: $222.92M  
+- Phoenix Vultures payroll: $230.57M  
+- Both teams over salary cap ($140.6M)
+AI Decision: ACCEPT
+Confidence: 0.70
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:17:09 ===
+Trade Information:
+Trade Proposal:
+Denver High receives:
+- Corey Kispert ($13.51M)
+- Dru Smith ($600k)
+    
+Washington Monuments receive:
+- Jamal Murray ($48.77M)
+- Jalen Pickett ($2.17M)
+- Damion Lee ($2.09M)
+- 2031 1st round pick
+
+Salary implications:
+- Denver High payroll: $184M
+- Washington Monuments payroll: $226.1M
+- Both teams over salary cap ($140.6M)
+AI Decision: ACCEPT
+Confidence: 0.66
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:18:22 ===
+Trade Information:
+Trade Proposal:  
+Toronto Raccoons receive:  
+- Taj Gibson ($2.09M)  
+
+Charlotte Queens receive:  
+- Garrett Temple ($2.09M)  
+
+Salary implications:  
+- Toronto Raccoons payroll: $205.25M  
+- Charlotte Queens payroll: $170.3M  
+- Both teams over salary cap ($140.6M)
+AI Decision: ACCEPT
+Confidence: 0.78
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:18:30 ===
+Trade Information:
+Trade Proposal:  
+Toronto Raccoons receive:  
+- Kevin Huerter ($17.41M)
+
+Chicago Whirlwinds receive:  
+- Jakob Poeltl ($19.5M)
+
+Salary implications:
+- Toronto Raccoons payroll: $203.16M
+- Chicago Whirlwinds payroll: $155.12M
+- Both teams over salary cap ($140.6M)
+AI Decision: ACCEPT
+Confidence: 0.74
+==================================================

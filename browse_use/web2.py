@@ -356,29 +356,80 @@ async def save_trade_data(trade_info, ai_decision, user_feedback, filename="trad
         f.write("=" * 50 + "\n")
 
 async def evaluate_trade_proposals(page):
-    # index 33: Trade 
-    await page.get_by_role("link", name="Trade Proposals").click()
-    negotiate_buttons = await page.query_selector_all('button:has-text("Negotiate")')
-    if not negotiate_buttons:
-        return False
-    print("made it here")
-    print(negotiate_buttons)
-
-    for i, btn in enumerate(negotiate_buttons):
-        await btn.click()
-        # Evaluate trade using reward model
-        decision, confidence = await evaluate_trade_logic(page)
-        print(f"\nTrade Evaluation:")
-        print(f"AI Decision: {decision}")
-        print(f"Confidence: {confidence:.2f}")
+    try:
+        # Navigate to trade proposals
+        await page.get_by_role("link", name="Trade Proposals").click()
+        await asyncio.sleep(2)  # Wait for page to load
+        done = 0
         
-        if decision == "ACCEPT":
-            await page.get_by_role("button", name="Propose trade").click()
-            return True
-        # else, close/dismiss and continue
-        await page.go_back()  # or close modal/dialog
-
-    return False
+        for i in range(4):  # Keep checking for new trade proposals
+            if done == 2 or i == 2:
+                return True
+            try:
+                # Wait for negotiate buttons to be visible
+                await page.wait_for_selector('button:has-text("Negotiate")', state="visible", timeout=5000)
+                
+                # Get all negotiate buttons
+                negotiate_buttons = await page.query_selector_all('button:has-text("Negotiate")')
+                if not negotiate_buttons:
+                    print("No trade proposals found")
+                    break
+                    
+                print(f"Found {len(negotiate_buttons)} trade proposals")
+                
+                # Process each proposal
+                for j in range(len(negotiate_buttons)):
+                    if done == 2 or i == 2 or j == 2:
+                        return True
+                    try:
+                        # Get fresh reference to the button
+                        buttons = await page.query_selector_all('button:has-text("Negotiate")')
+                        if i >= len(buttons):
+                            break
+                            
+                        # Click negotiate
+                        await buttons[i].click()
+                        await asyncio.sleep(1)  # Wait for trade modal
+                        
+                        # Evaluate trade using reward model
+                        decision, confidence = await evaluate_trade_logic(page)
+                        print(f"\nAI Decision: {decision}")
+                        print(f"Confidence: {confidence:.2f}")
+                        
+                        # Execute the trade based on AI decision
+                        if decision == "ACCEPT":
+                            print(f"Accepting trade proposal {i+1}")
+                            await page.get_by_role("button", name="Propose trade").click()
+                            await asyncio.sleep(2)  # Wait for trade to process
+                            
+                        else:
+                            print(f"Rejecting trade proposal {i+1}")
+                            await page.go_back()
+                            await asyncio.sleep(1)  # Wait for page to settle
+                        done += 1   
+                        # Go back to trade proposals page
+                        await page.get_by_role("link", name="Trade Proposals").click()
+                        await asyncio.sleep(2)  # Wait for page to load
+                        
+                    except Exception as e:
+                        print(f"Error processing trade proposal {i+1}: {str(e)}")
+                        # Try to recover by going back to trade proposals
+                        try:
+                            await page.get_by_role("link", name="Trade Proposals").click()
+                            await asyncio.sleep(2)
+                        except:
+                            pass
+                        continue
+                        
+            except Exception as e:
+                print(f"No more trade proposals available: {str(e)}")
+                break
+                
+    except Exception as e:
+        print(f"Error in evaluate_trade_proposals: {str(e)}")
+        return False
+        
+    return True
 
 async def main():
     with open("instructions.txt", "r") as f:
