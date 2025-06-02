@@ -11,7 +11,9 @@ from openai import OpenAI
 import base64
 import json
 import logging
-
+import joblib
+import numpy as np
+#  more high level planning: first, extract team name, and then at end see who won to see how team does - index 35 i believe
 
 load_dotenv()
 
@@ -38,12 +40,14 @@ class SeasonState(BaseModel):
 class PhaseManager:
     def __init__(self):
         self.current_phase = "trade_deadline"
-        self.actions_remaining = 20  # Start with 10 actions at trade deadline
+        self.actions_remaining = 4  
         self.logger = logging.getLogger(__name__)
 
     async def handle_phase_change(self, page: Page) -> None:
         """Handle phase transitions when actions are depleted"""
+        global first_move_of_phase
         if self.current_phase == "trade_deadline" and self.actions_remaining <= 0:
+            # await evaluate_trade_proposals(page)
             self.logger.info("Trade deadline actions depleted, transitioning to playoffs")
             self.current_phase = "playoffs"
             self.actions_remaining = 0
@@ -54,12 +58,15 @@ class PhaseManager:
                 await page.get_by_role("button", name="Play", exact=True).click()
                 await page.get_by_role("button", name="Through playoffs").click()
                 await page.get_by_role("button", name="Play", exact=True).click()
-
+                first_move_of_phase = True  # Reset for the new phase
 
             except Exception as e:
                 self.logger.error(f"Error during phase transition: {str(e)}")
                 await page.screenshot(path="error_playoffs_transition.png")
                 raise
+        elif self.current_phase == "trade_deadline" and self.actions_remaining == 3:
+            await evaluate_trade_proposals(page)
+
 
     def decrement_counter(self) -> bool:
         """Decrement the action counter and return True if actions are still available"""
@@ -74,6 +81,7 @@ class PhaseManager:
 initialized = False
 game_state = None
 phase_manager = PhaseManager()
+first_move_of_phase = True
 
 controller = Controller()
 
@@ -173,7 +181,7 @@ def ask_llm(question: str) -> ActionResult:
     return ActionResult(extracted_content=f'The LLM responded with: {answer}', include_in_memory=True)
 
 async def state_hook(agent: Agent):
-    global initialized, game_state
+    global initialized, game_state, first_move_of_phase
     page = await agent.browser_session.get_current_page()
     if not initialized:
         await page.goto("https://play.basketball-gm.com/")
@@ -186,10 +194,16 @@ async def state_hook(agent: Agent):
         await page.get_by_role("button", name="Until trade deadline").click()
         initialized = True
 
-    return await get_state(agent)
+    if first_move_of_phase:
+        await page.get_by_role("link", name="Roster", exact=True).click()
+        game_state = await parse_game_state_with_openai(page)
+        first_move_of_phase = False  # Set to False after first move
+        return await get_state(agent)
+    else:
+        return None
 
 async def router_hook(agent: Agent):
-    global game_state, initialized, phase_manager
+    global game_state, initialized, phase_manager, first_move_of_phase
     page = await agent.browser_session.get_current_page()
 
     try:
@@ -198,8 +212,8 @@ async def router_hook(agent: Agent):
 
         # Handle phase changes
         await phase_manager.handle_phase_change(page)
-        if season_state.phase == "trade_deadline" and phase_manager.actions_remaining == 1:
-            await evaluate_trade_proposals(page)
+        # if season_state.phase == "trade_deadline" and phase_manager.actions_remaining == 1:
+        #     await evaluate_trade_proposals(page)
 
         # Check if we have actions remaining
         if not phase_manager.decrement_counter():
@@ -216,15 +230,18 @@ async def router_hook(agent: Agent):
             await page.get_by_role("button", name="Until trade deadline").click()
             initialized = True
 
-        # Get the rest of the state
-        state_result = await get_state(agent)
-        combined_content = json.dumps({
-            "season_phase": season_state.phase,
-            "season_comments": season_state.comments,
-            "actions_remaining": phase_manager.actions_remaining,
-            "game_state": json.loads(state_result.extracted_content)
-        })
-        return ActionResult(extracted_content=combined_content)
+        # Only get state if first_move_of_phase is True
+        if first_move_of_phase:
+            state_result = await get_state(agent)
+            combined_content = json.dumps({
+                "season_phase": season_state.phase,
+                "season_comments": season_state.comments,
+                "actions_remaining": phase_manager.actions_remaining,
+                "game_state": json.loads(state_result.extracted_content)
+            })
+            return ActionResult(extracted_content=combined_content)
+        else:
+            return None
     except Exception as e:
         logger.error(f"Error in router_hook: {str(e)}")
         raise
@@ -254,17 +271,32 @@ async def get_state(agent: Agent):
         return ActionResult(extracted_content=state_json)
 
 async def evaluate_trade_logic(page):
-    # Take a screenshot of the trade proposal area using the correct selector
-    element = page.locator("#actual-actual-content > div > div.col-md-3 > div > div.row.trade-items.mb-3")
+    """Evaluate trade using GPT for extraction and reward model for decision."""
+    # Take screenshot of the trade proposal
+    element = page.locator("#actual-actual-content > div > div.col-md-3 > div")
+    await element.wait_for(state="visible", timeout=5000)
     screenshot = await element.screenshot()
     base64_image = base64.b64encode(screenshot).decode("utf-8")
 
+    # Use GPT to extract and format trade information
     client = OpenAI()
-    prompt = (
-        "You are an expert basketball GM. "
-        "Given the trade proposal shown in the image, respond with 'ACCEPT' if you recommend accepting/proposing the trade, "
-        "or 'REJECT' if not. Only respond with 'ACCEPT' or 'REJECT'."
-    )
+    prompt = """Extract the trade information from the image and format it exactly like this:
+    Trade Proposal:
+    Team A receives:
+    - Player X ($20M)
+    - 2025 1st round pick
+    
+    Team B receives:
+    - Player Y ($18M)
+    - Player Z ($5M)
+    
+    Salary implications:
+    - Team A payroll: $180M
+    - Team B payroll: $175M
+    - Both teams over salary cap ($140.6M)
+    
+    Make sure to include all players, picks, and salary information in this exact format."""
+    
     response = client.responses.create(
         model="gpt-4.1",
         input=[
@@ -277,8 +309,51 @@ async def evaluate_trade_logic(page):
             }
         ]
     )
-    result = response.output_text.strip().upper()
-    return result == "ACCEPT"
+    
+    formatted_trade = response.output_text.strip()
+    
+    # Use reward model to make decision
+    try:
+        model = joblib.load("reward_model.pkl")
+        prob = model.predict_proba([formatted_trade])[0][1]
+        
+        # Make decision based on probability threshold
+        decision = "ACCEPT" if prob > 0.5 else "REJECT"
+        confidence = abs(prob - 0.5) * 2  # Scale to 0-1 range
+        
+        # Save trade data with timestamp
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        with open("trade_feedback.txt", "a") as f:
+            f.write(f"\n=== Trade Evaluation {timestamp} ===\n")
+            f.write(f"Trade Information:\n{formatted_trade}\n")
+            f.write(f"AI Decision: {decision}\n")
+            f.write(f"Confidence: {confidence:.2f}\n")
+            f.write("=" * 50 + "\n")
+        
+        return decision, confidence
+        
+    except Exception as e:
+        print(f"Error using reward model: {e}")
+        return "REJECT", 0.0  # Default to reject if model fails
+
+async def get_user_feedback():
+    """Get user feedback on the trade decision."""
+    while True:
+        feedback = input("\nDo you agree with this decision? (yes/no/skip): ").lower()
+        if feedback in ['yes', 'no', 'skip']:
+            return feedback
+        print("Please enter 'yes', 'no', or 'skip'")
+
+async def save_trade_data(trade_info, ai_decision, user_feedback, filename="trade_feedback.txt"):
+    """Save trade information, AI decision, and user feedback to a file."""
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    
+    with open(filename, "a") as f:
+        f.write(f"\n=== Trade Evaluation {timestamp} ===\n")
+        f.write(f"Trade Information:\n{trade_info}\n")
+        f.write(f"AI Decision: {ai_decision}\n")
+        f.write(f"User Feedback: {user_feedback}\n")
+        f.write("=" * 50 + "\n")
 
 async def evaluate_trade_proposals(page):
     # index 33: Trade 
@@ -286,14 +361,18 @@ async def evaluate_trade_proposals(page):
     negotiate_buttons = await page.query_selector_all('button:has-text("Negotiate")')
     if not negotiate_buttons:
         return False
+    print("made it here")
+    print(negotiate_buttons)
 
     for i, btn in enumerate(negotiate_buttons):
         await btn.click()
-        # Extract trade info (e.g., via page.locator(...).inner_text())
-        # trade_info = await page.locator("...").inner_text()
-        # Evaluate trade (rule/LLM/human)
-        is_good_trade = await evaluate_trade_logic(page)  # implement this
-        if is_good_trade:
+        # Evaluate trade using reward model
+        decision, confidence = await evaluate_trade_logic(page)
+        print(f"\nTrade Evaluation:")
+        print(f"AI Decision: {decision}")
+        print(f"Confidence: {confidence:.2f}")
+        
+        if decision == "ACCEPT":
             await page.get_by_role("button", name="Propose trade").click()
             return True
         # else, close/dismiss and continue

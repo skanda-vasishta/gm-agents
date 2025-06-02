@@ -1,0 +1,1495 @@
+
+=== Trade Evaluation 2025-06-02 11:32:34 ===
+Trade Information:
+Certainly! Here’s a structured breakdown of the trade proposal from the image:
+
+---
+
+### 1. Players/Assets being **traded from your team** (Charlotte Queens):
+
+- **Keaton Wallace** ($600k)
+- **Larry Nance Jr.** ($11.21M)
+- **Jacob Toppin** ($600k)
+- **Total outgoing salary:** **$12.41M**
+
+---
+
+### 2. Players/Assets being **received by your team** (Charlotte Queens):
+
+- **Moussa Diabaté** ($2.37M)
+- **Total incoming salary:** **$2.37M**
+
+---
+
+### 3. **Draft picks involved:**
+- **No draft picks** are shown as being included in this trade proposal.
+
+---
+
+### 4. **Salary Implications:**
+
+- **Charlotte Queens (Your Team):**
+  - **Payroll after trade:** $180.61M
+  - **Existing salary cap:** $140.6M
+  - **Team OVR** (Overall Rating): Decreases from 51 to 52
+
+  **Warning:** Charlotte Queens are over the salary cap. NBA trade rules require the received salary to be less than 125% of the traded salary, and this trade currently does not satisfy that rule.
+
+- **Atlanta Gold Club:**
+  - **Payroll after trade:** $192.51M
+  - **Salary cap:** $140.6M
+  - **Team OVR:** Increases from 56 to 56
+
+---
+
+**Summary:**  
+Charlotte Queens are sending out three players (Wallace, Nance Jr., Toppin) with a combined salary of $12.41M, receiving one player (Diabaté) at $2.37M. No draft picks are included. The trade fails current salary-matching rules due to cap restrictions for the Charlotte Queens.
+AI Decision: REJECT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 11:32:59 ===
+Trade Information:
+Here is the extracted trade proposal information:
+
+---
+
+### 1. Players/Assets being traded from your team (Atlanta Gold Club):
+- **Onyeka Okongwu** ($15.5M)
+- **Garrison Mathews** ($2.23M)
+- **Jacob Toppin** ($600k)
+- **Total salary outgoing:** $18.33M
+
+---
+
+### 2. Players/Assets being received by your team (Atlanta Gold Club):
+- **E.J. Liddell** ($710k)
+
+---
+
+### 3. Any draft picks involved:
+- **2025 2nd round pick** (from SAC, pick 21-26 range—details suggest it is a Sacramento 2025 2nd rounder)
+
+---
+
+### 4. Salary implications:
+- **Atlanta Gold Club:**
+  - Payroll after trade: **$184.93M**
+  - Salary cap: $140.6M
+  - Team overall rating drops from 56 → 53
+
+- **Chicago Whirlwinds:**
+  - Payroll after trade: **$171.54M**
+  - Salary cap: $140.6M
+  - Team overall rating increases from 63 → 65
+
+---
+
+#### Notes:
+- **Warning:** The Chicago Whirlwinds are over the salary cap and, per league rules, the players they receive must have a combined salary of less than 125% of the salaries of the players they trade away. The trade as shown may not be valid under current rules due to this salary mismatch.
+AI Decision: REJECT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 11:33:16 ===
+Trade Information:
+**Trade Proposal Breakdown:**
+
+**1. Players/Assets traded from your team (Los Angeles Earthquakes):**
+- Georges Niang (Salary: $8.35M)
+- Larry Nance Jr. (Salary: $11.21M)
+- Total salary outgoing: $19.56M
+
+**2. Players/Assets received by your team:**
+- 2027 2nd round pick (from Atlanta Gold Club)
+
+**3. Draft picks involved:**
+- Los Angeles Earthquakes receive a 2027 2nd round pick.
+
+**4. Salary implications:**
+- After the trade:
+  - **Los Angeles Earthquakes' payroll:** $204.01M (down from previous amount, as $19.56M in player salaries are traded out)
+  - **Atlanta Gold Club's payroll:** $182.99M (increased due to addition of $19.56M in player salaries)
+
+**Additional Note:**
+- Warning: Los Angeles Earthquakes are over the salary cap, so the incoming salaries must fit the CBA's 125% rule. This deal would need to be checked for compliance with league salary rules.
+
+**Summary:**  
+Los Angeles Earthquakes would send Georges Niang and Larry Nance Jr. to the Atlanta Gold Club in exchange for a 2027 2nd round pick, clearing $19.56M in salary from their books but must ensure the deal fits trade rules due to being over the salary cap.
+AI Decision: REJECT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 11:33:45 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team 
+**(Assuming 'your team' is the Atlanta Gold Club):**
+- Aaron Wiggins ($9M)
+- Jaylin Williams ($2.1M)
+- Dillon Jones ($5.2M)
+- 2025 2nd-round pick (from ATL, 25-22)
+
+---
+
+### 2. Players/Assets being received by your team 
+**(Atlanta Gold Club):**
+- Zaccharie Risacher ($14.26M)
+- Garrison Mathews ($2.23M)
+
+---
+
+### 3. Draft picks involved:
+- *Traded away by Atlanta Gold Club*: 2025 2nd-round pick (from ATL, 25-22)
+- *Received*: No draft picks received by Atlanta Gold Club.
+
+---
+
+### 4. Salary implications
+
+**Atlanta Gold Club**
+- Total payroll after trade: **$202.36M**
+- Salary cap: **$140.6M**
+- Team overall (ovr) after trade: **61**
+
+**Oklahoma City 66ers**
+- Total payroll after trade: **$180.54M**
+- Salary cap: **$140.6M**
+- Team overall (ovr) after trade: **85**
+
+---
+
+**Summary:**  
+Atlanta Gold Club sends three players and a 2025 2nd-round pick to the Oklahoma City 66ers in exchange for two players. The payroll for Atlanta increases post-trade, and their team overall rating decreases. No picks are received by Atlanta.
+AI Decision: REJECT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 11:34:36 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (**Atlanta Gold Club**):
+- **Justin Edwards** ($1.96M salary)
+
+---
+
+### 2. Players/Assets being received by your team (**Atlanta Gold Club**):
+- **Dominick Barlow** ($1.2M salary)
+- **Daeqwon Plowden** ($600k salary)
+- **Jacob Toppin** ($600k salary)
+- **Total salary received:** $2.4M
+
+---
+
+### 3. Draft picks involved:
+- **No draft picks are listed as part of this trade.**
+
+---
+
+### 4. Salary implications:
+- **Atlanta Gold Club payroll after trade:** $202.11M  
+  (Over the $140.6M salary cap)
+- **Atlanta Gold Club outgoing total salary:** $1.96M  
+  **Incoming total salary:** $2.4M  
+  **Net salary gained:** +$0.44M
+
+- **Philadelphia Cheesesteaks payroll after trade:** $201.65M  
+  (Over the $140.6M salary cap)
+- **Philadelphia Cheesesteaks outgoing total salary:** $2.4M  
+  **Incoming total salary:** $1.96M  
+  **Net salary decreased:** -$0.44M
+
+---
+
+**Other Notes:**
+- **Team overall ratings:**  
+  - Atlanta Gold Club: 56 (no change after trade)
+  - Philadelphia Cheesesteaks: 65 (no change after trade)
+- The deal does **not include draft picks.**
+- Both teams remain significantly over the salary cap after the trade.
+
+AI Decision: REJECT
+User Feedback: no
+==================================================
+
+=== Trade Evaluation 2025-06-02 11:35:01 ===
+Trade Information:
+Here is the extracted information from the trade proposal image:
+
+---
+
+### 1. Players/Assets being traded **from your team** (Charlotte Queens):
+- **Keaton Wallace** ($600k)
+- **Larry Nance Jr.** ($11.21M)
+- **Jacob Toppin** ($600k)
+- **Total salary traded:** $12.41M
+
+### 2. Players/Assets being **received by your team** (Charlotte Queens):
+- **Moussa Diabaté** ($2.37M)
+
+### 3. **Draft Picks Involved:**
+- **None mentioned** in this trade proposal.
+
+### 4. **Salary Implications:**
+- After the trade:
+    - **Charlotte Queens' payroll:** $180.61M (decreases due to salary dump)
+    - **Charlotte Queens' salary cap:** $140.6M
+    - **Charlotte Queens' team OVR:** decreases from 51 → 52 (improves by 1)
+- **Atlanta Gold Club's payroll:** $192.51M (increases)
+    - **Atlanta Gold Club's salary cap:** $140.6M
+    - **Atlanta Gold Club's team OVR:** increases from 56 → 56 (no change)
+
+> **Warning:** The Charlotte Queens are above the salary cap, so the salaries they receive in a trade must not exceed 125% of the salaries they trade away. In this scenario, the value is at 19%, which is compliant.
+
+---
+
+**Summary:**  
+Charlotte is trading out Keaton Wallace, Larry Nance Jr., and Jacob Toppin (combined $12.41M), and receiving only Moussa Diabaté ($2.37M), with no draft picks involved. The trade reduces salary for the Charlotte Queens and slightly boosts their team overall.
+AI Decision: REJECT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 11:35:49 ===
+Trade Information:
+Here is the extracted information from the trade proposal image:
+
+---
+
+### 1. **Players/Assets being traded from your team (Atlanta Gold Club):**
+- **Darius Garland** ($40.81M salary)
+- **2026 2nd round pick**
+- **2028 1st round pick**
+
+### 2. **Players/Assets being received by your team (Atlanta Gold Club):**
+- **Zaccharie Risacher** ($14.26M salary)
+- **Garrison Mathews** ($2.23M salary)
+
+### 3. **Draft picks involved:**
+- **Atlanta Gold Club sends:**  
+  - 2026 2nd round pick  
+  - 2028 1st round pick
+
+### 4. **Salary implications:**
+- **Atlanta payroll after trade:** $226.27M  
+- **Salary cap:** $140.6M  
+- **Team overall rating (ovr) changes:**  
+  - **Before:** 62  
+  - **After:** 64  
+
+---
+
+#### **Summary:**
+Atlanta Gold Club is trading Darius Garland and two draft picks (2026 2nd, 2028 1st) to the Cleveland Curses in exchange for Zaccharie Risacher and Garrison Mathews. This trade increases the team's overall rating from 62 to 64, but the payroll post-trade ($226.27M) significantly exceeds the salary cap ($140.6M).
+AI Decision: REJECT
+User Feedback: no
+==================================================
+
+=== Trade Evaluation 2025-06-02 11:36:43 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+**1. Players/Assets being traded from your team (Assuming "your team" is the Atlanta Gold Club):**
+- **Jackson Rowe** ($600k salary)
+
+**2. Players/Assets being received by your team:**
+- **Daeqwon Plowden** ($600k salary)
+
+**3. Any draft picks involved:**
+- **None mentioned** in this proposal.
+
+**4. Salary implications:**
+- **Atlanta Gold Club payroll after trade:** $202.55M (no significant change; salary cap remains $140.6M)
+- **Golden State Unicorns payroll after trade:** $201.84M (no significant change; salary cap remains $140.6M)
+- **Both players have identical salaries ($600k), so the trade is salary-neutral.**
+
+**Summary:**  
+The Atlanta Gold Club is trading away Jackson Rowe and receiving Daeqwon Plowden from the Golden State Unicorns. No draft picks are involved, and the trade has a negligible impact on team payrolls, remaining under the salary cap. Team overall ratings also remain unchanged.
+AI Decision: REJECT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 11:37:22 ===
+Trade Information:
+**Trade Proposal Summary**
+
+---
+
+**1. Players/Assets being traded from your team:**
+- If you are **the Los Angeles Lowriders**, you are trading away **Jacob Toppin** ($600k salary).
+- If you are **the Atlanta Gold Club**, you are trading away **Alex Len** ($740k salary).
+
+---
+
+**2. Players/Assets being received by your team:**
+- If you are **the Los Angeles Lowriders**, you are receiving **Alex Len** ($740k salary).
+- If you are **the Atlanta Gold Club**, you are receiving **Jacob Toppin** ($600k salary).
+
+---
+
+**3. Any draft picks involved:**
+- **No draft picks** are involved in this proposal.
+
+---
+
+**4. Salary implications:**
+- **Atlanta Gold Club:**  
+  - Payroll after trade: **$202.69M**  
+  - Acquiring Jacob Toppin (lower salary) instead of Alex Len drops them to total $202.69M payroll.
+  - Remains over salary cap ($140.6M).
+
+- **Los Angeles Lowriders:**  
+  - Payroll after trade: **$196.95M**  
+  - Acquiring Alex Len (higher salary) instead of Jacob Toppin raises their payroll slightly to $196.95M.
+  - Remains over salary cap ($140.6M).
+
+---
+
+**Team Overall Ratings after Trade:**
+- Atlanta Gold Club: **62** (no change)
+- Los Angeles Lowriders: **66** (no change)
+
+---
+
+**Summary:**  
+This trade is a simple player swap: Alex Len for Jacob Toppin, with a minor salary difference and no draft picks or additional assets included. Both teams remain significantly over the salary cap, and team overall ratings do not change.
+AI Decision: REJECT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 11:42:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Boston Celtics):
+- **Andrew Wiggins** ($24.3M)
+- **Jarrett Allen** ($20.0M)
+- 2026 1st round pick
+
+### 2. Players/Assets being received by your team (Boston Celtics):
+- **Giannis Antetokounmpo** ($45.6M)
+- **Tyrese Maxey** ($4.3M)
+- 2028 2nd round pick
+
+### 3. Draft picks involved:
+- Boston Celtics sends: 1 pick(s)
+- Boston Celtics receives: 1 pick(s)
+
+### 4. Salary implications:
+- **Boston Celtics payroll after trade:** $209M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 66 → 68
+
+- **Los Angeles Lakers payroll after trade:** $205M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 58 → 60
+
+---
+
+**Summary:**  
+Boston Celtics is trading Andrew Wiggins, Jarrett Allen and 1 pick(s) to Los Angeles Lakers in exchange for Giannis Antetokounmpo, Tyrese Maxey and 1 pick(s). The trade increases Boston Celtics's payroll by $5.600000000000001M.
+AI Decision: ACCEPT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:07:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Miami Heat):
+- **Andrew Wiggins** ($24.3M)
+- **Stephen Curry** ($51.9M)
+- 2024 1st round pick
+- 2025 2nd round pick
+
+### 2. Players/Assets being received by your team (Miami Heat):
+- **Brook Lopez** ($25.0M)
+- **Klay Thompson** ($43.2M)
+
+
+### 3. Draft picks involved:
+- Miami Heat sends: 2 pick(s)
+- Miami Heat receives: 0 pick(s)
+
+### 4. Salary implications:
+- **Miami Heat payroll after trade:** $183M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 65 → 65
+
+- **Philadelphia 76ers payroll after trade:** $204M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 65 → 66
+
+---
+
+**Summary:**  
+Miami Heat is trading Andrew Wiggins, Stephen Curry and 2 pick(s) to Philadelphia 76ers in exchange for Brook Lopez, Klay Thompson and 0 pick(s). The trade decreases Miami Heat's payroll by $8.0M.
+AI Decision: REJECT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:25:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Miami Heat):
+- **Klay Thompson** ($43.2M)
+
+
+### 2. Players/Assets being received by your team (Miami Heat):
+- **Joel Embiid** ($42.1M)
+- **Jalen Brunson** ($26.3M)
+- **Tobias Harris** ($39.2M)
+- 2025 2nd round pick
+
+### 3. Draft picks involved:
+- Miami Heat sends: 0 pick(s)
+- Miami Heat receives: 1 pick(s)
+
+### 4. Salary implications:
+- **Miami Heat payroll after trade:** $189M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 61 → 59
+
+- **Golden State Warriors payroll after trade:** $202M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 69 → 71
+
+---
+
+**Summary:**  
+Miami Heat is trading Klay Thompson and 0 pick(s) to Golden State Warriors in exchange for Joel Embiid, Jalen Brunson, Tobias Harris and 1 pick(s). The trade increases Miami Heat's payroll by $64.4M.
+AI Decision: REJECT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:31:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Denver Nuggets):
+- **Darius Garland** ($33.5M)
+- **Jalen Brunson** ($26.3M)
+- 2027 1st round pick
+- 2025 2nd round pick
+
+### 2. Players/Assets being received by your team (Denver Nuggets):
+- **Andrew Wiggins** ($24.3M)
+- **Donovan Mitchell** ($33.2M)
+- 2024 1st round pick
+- 2025 2nd round pick
+
+### 3. Draft picks involved:
+- Denver Nuggets sends: 2 pick(s)
+- Denver Nuggets receives: 2 pick(s)
+
+### 4. Salary implications:
+- **Denver Nuggets payroll after trade:** $220M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 57 → 59
+
+- **Miami Heat payroll after trade:** $210M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 63 → 65
+
+---
+
+**Summary:**  
+Denver Nuggets is trading Darius Garland, Jalen Brunson and 2 pick(s) to Miami Heat in exchange for Andrew Wiggins, Donovan Mitchell and 2 pick(s). The trade decreases Denver Nuggets's payroll by $2.299999999999997M.
+AI Decision: REJECT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:37:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Cleveland Cavaliers):
+- **Tobias Harris** ($39.2M)
+- 2028 1st round pick
+- 2027 1st round pick
+
+### 2. Players/Assets being received by your team (Cleveland Cavaliers):
+- **De'Anthony Melton** ($8.0M)
+- **Andrew Wiggins** ($24.3M)
+- **Darius Garland** ($33.5M)
+
+
+### 3. Draft picks involved:
+- Cleveland Cavaliers sends: 2 pick(s)
+- Cleveland Cavaliers receives: 0 pick(s)
+
+### 4. Salary implications:
+- **Cleveland Cavaliers payroll after trade:** $209M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 50 → 48
+
+- **Denver Nuggets payroll after trade:** $194M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 69 → 69
+
+---
+
+**Summary:**  
+Cleveland Cavaliers is trading Tobias Harris and 2 pick(s) to Denver Nuggets in exchange for De'Anthony Melton, Andrew Wiggins, Darius Garland and 0 pick(s). The trade increases Cleveland Cavaliers's payroll by $26.599999999999994M.
+AI Decision: REJECT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:01:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Cleveland Cavaliers):
+- **Draymond Green** ($22.3M)
+- **Tyrese Maxey** ($4.3M)
+- **Khris Middleton** ($29.3M)
+- 2024 1st round pick
+
+### 2. Players/Assets being received by your team (Cleveland Cavaliers):
+- **Giannis Antetokounmpo** ($45.6M)
+- 2025 2nd round pick
+- 2028 2nd round pick
+
+### 3. Draft picks involved:
+- Cleveland Cavaliers sends: 1 pick(s)
+- Cleveland Cavaliers receives: 2 pick(s)
+
+### 4. Salary implications:
+- **Cleveland Cavaliers payroll after trade:** $184M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 50 → 52
+
+- **Philadelphia 76ers payroll after trade:** $205M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 58 → 57
+
+---
+
+**Summary:**  
+Cleveland Cavaliers is trading Draymond Green, Tyrese Maxey, Khris Middleton and 1 pick(s) to Philadelphia 76ers in exchange for Giannis Antetokounmpo and 2 pick(s). The trade decreases Cleveland Cavaliers's payroll by $10.299999999999997M.
+AI Decision: REJECT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 11:53:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Cleveland Cavaliers):
+- **Jalen Brunson** ($26.3M)
+- **Khris Middleton** ($29.3M)
+- 2027 2nd round pick
+- 2026 1st round pick
+
+### 2. Players/Assets being received by your team (Cleveland Cavaliers):
+- **RJ Barrett** ($23.8M)
+- **Draymond Green** ($22.3M)
+- **Stephen Curry** ($51.9M)
+- 2025 1st round pick
+- 2025 2nd round pick
+
+### 3. Draft picks involved:
+- Cleveland Cavaliers sends: 2 pick(s)
+- Cleveland Cavaliers receives: 2 pick(s)
+
+### 4. Salary implications:
+- **Cleveland Cavaliers payroll after trade:** $189M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 58 → 60
+
+- **Los Angeles Lakers payroll after trade:** $196M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 64 → 62
+
+---
+
+**Summary:**  
+Cleveland Cavaliers is trading Jalen Brunson, Khris Middleton and 2 pick(s) to Los Angeles Lakers in exchange for RJ Barrett, Draymond Green, Stephen Curry and 2 pick(s). The trade increases Cleveland Cavaliers's payroll by $42.4M.
+AI Decision: REJECT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:08:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Milwaukee Bucks):
+- **Evan Mobley** ($8.9M)
+- **Jalen Brunson** ($26.3M)
+- **Klay Thompson** ($43.2M)
+- 2028 2nd round pick
+- 2025 2nd round pick
+
+### 2. Players/Assets being received by your team (Milwaukee Bucks):
+- **Brook Lopez** ($25.0M)
+- 2027 2nd round pick
+
+### 3. Draft picks involved:
+- Milwaukee Bucks sends: 2 pick(s)
+- Milwaukee Bucks receives: 1 pick(s)
+
+### 4. Salary implications:
+- **Milwaukee Bucks payroll after trade:** $219M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 50 → 50
+
+- **Cleveland Cavaliers payroll after trade:** $213M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 59 → 59
+
+---
+
+**Summary:**  
+Milwaukee Bucks is trading Evan Mobley, Jalen Brunson, Klay Thompson and 2 pick(s) to Cleveland Cavaliers in exchange for Brook Lopez and 1 pick(s). The trade decreases Milwaukee Bucks's payroll by $53.400000000000006M.
+AI Decision: ACCEPT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:12:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Phoenix Suns):
+- **Andrew Wiggins** ($24.3M)
+- **James Harden** ($35.6M)
+- 2024 2nd round pick
+
+### 2. Players/Assets being received by your team (Phoenix Suns):
+- **RJ Barrett** ($23.8M)
+
+
+### 3. Draft picks involved:
+- Phoenix Suns sends: 1 pick(s)
+- Phoenix Suns receives: 0 pick(s)
+
+### 4. Salary implications:
+- **Phoenix Suns payroll after trade:** $218M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 56 → 56
+
+- **New York Knicks payroll after trade:** $211M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 65 → 65
+
+---
+
+**Summary:**  
+Phoenix Suns is trading Andrew Wiggins, James Harden and 1 pick(s) to New York Knicks in exchange for RJ Barrett and 0 pick(s). The trade decreases Phoenix Suns's payroll by $36.10000000000001M.
+AI Decision: REJECT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:26:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Golden State Warriors):
+- **Draymond Green** ($22.3M)
+- **Stephen Curry** ($51.9M)
+- 2024 2nd round pick
+- 2028 1st round pick
+
+### 2. Players/Assets being received by your team (Golden State Warriors):
+- **Tyrese Maxey** ($4.3M)
+
+
+### 3. Draft picks involved:
+- Golden State Warriors sends: 2 pick(s)
+- Golden State Warriors receives: 0 pick(s)
+
+### 4. Salary implications:
+- **Golden State Warriors payroll after trade:** $216M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 51 → 52
+
+- **Phoenix Suns payroll after trade:** $191M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 55 → 56
+
+---
+
+**Summary:**  
+Golden State Warriors is trading Draymond Green, Stephen Curry and 2 pick(s) to Phoenix Suns in exchange for Tyrese Maxey and 0 pick(s). The trade decreases Golden State Warriors's payroll by $69.9M.
+AI Decision: ACCEPT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:12:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Philadelphia 76ers):
+- **RJ Barrett** ($23.8M)
+- **Donovan Mitchell** ($33.2M)
+- 2024 2nd round pick
+
+### 2. Players/Assets being received by your team (Philadelphia 76ers):
+- **Andrew Wiggins** ($24.3M)
+- **Darius Garland** ($33.5M)
+- **Evan Mobley** ($8.9M)
+- 2025 2nd round pick
+- 2025 2nd round pick
+
+### 3. Draft picks involved:
+- Philadelphia 76ers sends: 1 pick(s)
+- Philadelphia 76ers receives: 2 pick(s)
+
+### 4. Salary implications:
+- **Philadelphia 76ers payroll after trade:** $206M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 69 → 69
+
+- **Phoenix Suns payroll after trade:** $189M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 60 → 61
+
+---
+
+**Summary:**  
+Philadelphia 76ers is trading RJ Barrett, Donovan Mitchell and 1 pick(s) to Phoenix Suns in exchange for Andrew Wiggins, Darius Garland, Evan Mobley and 2 pick(s). The trade increases Philadelphia 76ers's payroll by $9.700000000000003M.
+AI Decision: ACCEPT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:27:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Philadelphia 76ers):
+- **Klay Thompson** ($43.2M)
+- **Khris Middleton** ($29.3M)
+- 2026 1st round pick
+
+### 2. Players/Assets being received by your team (Philadelphia 76ers):
+- **Darius Garland** ($33.5M)
+- **Draymond Green** ($22.3M)
+- **Brook Lopez** ($25.0M)
+- 2025 1st round pick
+
+### 3. Draft picks involved:
+- Philadelphia 76ers sends: 1 pick(s)
+- Philadelphia 76ers receives: 1 pick(s)
+
+### 4. Salary implications:
+- **Philadelphia 76ers payroll after trade:** $213M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 66 → 68
+
+- **Los Angeles Lakers payroll after trade:** $210M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 69 → 69
+
+---
+
+**Summary:**  
+Philadelphia 76ers is trading Klay Thompson, Khris Middleton and 1 pick(s) to Los Angeles Lakers in exchange for Darius Garland, Draymond Green, Brook Lopez and 1 pick(s). The trade increases Philadelphia 76ers's payroll by $8.299999999999997M.
+AI Decision: ACCEPT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:09:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Milwaukee Bucks):
+- **Evan Mobley** ($8.9M)
+- **Draymond Green** ($22.3M)
+- **Darius Garland** ($33.5M)
+- 2027 1st round pick
+- 2028 2nd round pick
+
+### 2. Players/Assets being received by your team (Milwaukee Bucks):
+- **Tobias Harris** ($39.2M)
+- **Damian Lillard** ($45.6M)
+
+
+### 3. Draft picks involved:
+- Milwaukee Bucks sends: 2 pick(s)
+- Milwaukee Bucks receives: 0 pick(s)
+
+### 4. Salary implications:
+- **Milwaukee Bucks payroll after trade:** $181M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 62 → 62
+
+- **Philadelphia 76ers payroll after trade:** $184M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 63 → 65
+
+---
+
+**Summary:**  
+Milwaukee Bucks is trading Evan Mobley, Draymond Green, Darius Garland and 2 pick(s) to Philadelphia 76ers in exchange for Tobias Harris, Damian Lillard and 0 pick(s). The trade increases Milwaukee Bucks's payroll by $20.10000000000001M.
+AI Decision: REJECT
+User Feedback: no
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:10:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Milwaukee Bucks):
+- **Evan Mobley** ($8.9M)
+- **Tyrese Maxey** ($4.3M)
+- **RJ Barrett** ($23.8M)
+- 2026 2nd round pick
+
+### 2. Players/Assets being received by your team (Milwaukee Bucks):
+- **Brook Lopez** ($25.0M)
+- **Andrew Wiggins** ($24.3M)
+- 2025 2nd round pick
+
+### 3. Draft picks involved:
+- Milwaukee Bucks sends: 1 pick(s)
+- Milwaukee Bucks receives: 1 pick(s)
+
+### 4. Salary implications:
+- **Milwaukee Bucks payroll after trade:** $198M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 54 → 55
+
+- **Denver Nuggets payroll after trade:** $211M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 65 → 64
+
+---
+
+**Summary:**  
+Milwaukee Bucks is trading Evan Mobley, Tyrese Maxey, RJ Barrett and 1 pick(s) to Denver Nuggets in exchange for Brook Lopez, Andrew Wiggins and 1 pick(s). The trade increases Milwaukee Bucks's payroll by $12.299999999999997M.
+AI Decision: REJECT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 11:59:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Milwaukee Bucks):
+- **James Harden** ($35.6M)
+- **Jarrett Allen** ($20.0M)
+- **De'Anthony Melton** ($8.0M)
+- 2025 2nd round pick
+- 2028 2nd round pick
+
+### 2. Players/Assets being received by your team (Milwaukee Bucks):
+- **Tobias Harris** ($39.2M)
+- **Tyrese Maxey** ($4.3M)
+- 2028 1st round pick
+- 2024 2nd round pick
+
+### 3. Draft picks involved:
+- Milwaukee Bucks sends: 2 pick(s)
+- Milwaukee Bucks receives: 2 pick(s)
+
+### 4. Salary implications:
+- **Milwaukee Bucks payroll after trade:** $211M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 50 → 48
+
+- **Los Angeles Lakers payroll after trade:** $207M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 63 → 62
+
+---
+
+**Summary:**  
+Milwaukee Bucks is trading James Harden, Jarrett Allen, De'Anthony Melton and 2 pick(s) to Los Angeles Lakers in exchange for Tobias Harris, Tyrese Maxey and 2 pick(s). The trade decreases Milwaukee Bucks's payroll by $20.1M.
+AI Decision: REJECT
+User Feedback: no
+==================================================
+
+=== Trade Evaluation 2025-06-02 11:49:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Denver Nuggets):
+- **James Harden** ($35.6M)
+- 2027 2nd round pick
+- 2028 2nd round pick
+
+### 2. Players/Assets being received by your team (Denver Nuggets):
+- **Giannis Antetokounmpo** ($45.6M)
+- **Darius Garland** ($33.5M)
+- **Joel Embiid** ($42.1M)
+- 2028 2nd round pick
+
+### 3. Draft picks involved:
+- Denver Nuggets sends: 2 pick(s)
+- Denver Nuggets receives: 1 pick(s)
+
+### 4. Salary implications:
+- **Denver Nuggets payroll after trade:** $190M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 64 → 65
+
+- **New York Knicks payroll after trade:** $198M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 57 → 57
+
+---
+
+**Summary:**  
+Denver Nuggets is trading James Harden and 2 pick(s) to New York Knicks in exchange for Giannis Antetokounmpo, Darius Garland, Joel Embiid and 1 pick(s). The trade increases Denver Nuggets's payroll by $85.6M.
+AI Decision: ACCEPT
+User Feedback: no
+==================================================
+
+=== Trade Evaluation 2025-06-02 11:55:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Milwaukee Bucks):
+- **Jalen Brunson** ($26.3M)
+- **Draymond Green** ($22.3M)
+- 2025 1st round pick
+
+### 2. Players/Assets being received by your team (Milwaukee Bucks):
+- **Julius Randle** ($28.2M)
+- **De'Anthony Melton** ($8.0M)
+
+
+### 3. Draft picks involved:
+- Milwaukee Bucks sends: 1 pick(s)
+- Milwaukee Bucks receives: 0 pick(s)
+
+### 4. Salary implications:
+- **Milwaukee Bucks payroll after trade:** $190M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 57 → 55
+
+- **New York Knicks payroll after trade:** $191M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 62 → 63
+
+---
+
+**Summary:**  
+Milwaukee Bucks is trading Jalen Brunson, Draymond Green and 1 pick(s) to New York Knicks in exchange for Julius Randle, De'Anthony Melton and 0 pick(s). The trade decreases Milwaukee Bucks's payroll by $12.399999999999999M.
+AI Decision: ACCEPT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 11:40:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Denver Nuggets):
+- **RJ Barrett** ($23.8M)
+- **Brook Lopez** ($25.0M)
+- 2024 2nd round pick
+
+### 2. Players/Assets being received by your team (Denver Nuggets):
+- **Evan Mobley** ($8.9M)
+- **Khris Middleton** ($29.3M)
+
+
+### 3. Draft picks involved:
+- Denver Nuggets sends: 1 pick(s)
+- Denver Nuggets receives: 0 pick(s)
+
+### 4. Salary implications:
+- **Denver Nuggets payroll after trade:** $211M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 69 → 71
+
+- **Milwaukee Bucks payroll after trade:** $208M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 68 → 70
+
+---
+
+**Summary:**  
+Denver Nuggets is trading RJ Barrett, Brook Lopez and 1 pick(s) to Milwaukee Bucks in exchange for Evan Mobley, Khris Middleton and 0 pick(s). The trade decreases Denver Nuggets's payroll by $10.599999999999994M.
+AI Decision: REJECT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:23:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Phoenix Suns):
+- **Brook Lopez** ($25.0M)
+- 2024 2nd round pick
+
+### 2. Players/Assets being received by your team (Phoenix Suns):
+- **Draymond Green** ($22.3M)
+
+
+### 3. Draft picks involved:
+- Phoenix Suns sends: 1 pick(s)
+- Phoenix Suns receives: 0 pick(s)
+
+### 4. Salary implications:
+- **Phoenix Suns payroll after trade:** $203M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 70 → 71
+
+- **New York Knicks payroll after trade:** $214M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 66 → 65
+
+---
+
+**Summary:**  
+Phoenix Suns is trading Brook Lopez and 1 pick(s) to New York Knicks in exchange for Draymond Green and 0 pick(s). The trade decreases Phoenix Suns's payroll by $2.6999999999999993M.
+AI Decision: REJECT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:37:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Golden State Warriors):
+- **Evan Mobley** ($8.9M)
+- **Joel Embiid** ($42.1M)
+- 2026 2nd round pick
+- 2024 2nd round pick
+
+### 2. Players/Assets being received by your team (Golden State Warriors):
+- **Draymond Green** ($22.3M)
+- 2028 2nd round pick
+- 2025 2nd round pick
+
+### 3. Draft picks involved:
+- Golden State Warriors sends: 2 pick(s)
+- Golden State Warriors receives: 2 pick(s)
+
+### 4. Salary implications:
+- **Golden State Warriors payroll after trade:** $211M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 61 → 63
+
+- **Cleveland Cavaliers payroll after trade:** $203M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 68 → 67
+
+---
+
+**Summary:**  
+Golden State Warriors is trading Evan Mobley, Joel Embiid and 2 pick(s) to Cleveland Cavaliers in exchange for Draymond Green and 2 pick(s). The trade decreases Golden State Warriors's payroll by $28.7M.
+AI Decision: REJECT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:28:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Golden State Warriors):
+- **Khris Middleton** ($29.3M)
+- **Donovan Mitchell** ($33.2M)
+
+
+### 2. Players/Assets being received by your team (Golden State Warriors):
+- **Tobias Harris** ($39.2M)
+- 2024 2nd round pick
+- 2024 2nd round pick
+
+### 3. Draft picks involved:
+- Golden State Warriors sends: 0 pick(s)
+- Golden State Warriors receives: 2 pick(s)
+
+### 4. Salary implications:
+- **Golden State Warriors payroll after trade:** $180M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 68 → 70
+
+- **Denver Nuggets payroll after trade:** $216M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 54 → 52
+
+---
+
+**Summary:**  
+Golden State Warriors is trading Khris Middleton, Donovan Mitchell and 0 pick(s) to Denver Nuggets in exchange for Tobias Harris and 2 pick(s). The trade decreases Golden State Warriors's payroll by $23.299999999999997M.
+AI Decision: REJECT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 11:45:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Phoenix Suns):
+- **Giannis Antetokounmpo** ($45.6M)
+- **Donovan Mitchell** ($33.2M)
+
+
+### 2. Players/Assets being received by your team (Phoenix Suns):
+- **Evan Mobley** ($8.9M)
+- **Klay Thompson** ($43.2M)
+
+
+### 3. Draft picks involved:
+- Phoenix Suns sends: 0 pick(s)
+- Phoenix Suns receives: 0 pick(s)
+
+### 4. Salary implications:
+- **Phoenix Suns payroll after trade:** $208M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 69 → 68
+
+- **Cleveland Cavaliers payroll after trade:** $181M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 51 → 53
+
+---
+
+**Summary:**  
+Phoenix Suns is trading Giannis Antetokounmpo, Donovan Mitchell and 0 pick(s) to Cleveland Cavaliers in exchange for Evan Mobley, Klay Thompson and 0 pick(s). The trade decreases Phoenix Suns's payroll by $26.70000000000001M.
+AI Decision: ACCEPT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:28:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Boston Celtics):
+- **Jarrett Allen** ($20.0M)
+- 2027 1st round pick
+- 2027 1st round pick
+
+### 2. Players/Assets being received by your team (Boston Celtics):
+- **Damian Lillard** ($45.6M)
+- **James Harden** ($35.6M)
+- **Evan Mobley** ($8.9M)
+- 2026 1st round pick
+
+### 3. Draft picks involved:
+- Boston Celtics sends: 2 pick(s)
+- Boston Celtics receives: 1 pick(s)
+
+### 4. Salary implications:
+- **Boston Celtics payroll after trade:** $207M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 54 → 55
+
+- **Golden State Warriors payroll after trade:** $189M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 58 → 56
+
+---
+
+**Summary:**  
+Boston Celtics is trading Jarrett Allen and 2 pick(s) to Golden State Warriors in exchange for Damian Lillard, James Harden, Evan Mobley and 1 pick(s). The trade increases Boston Celtics's payroll by $70.10000000000001M.
+AI Decision: ACCEPT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:17:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Boston Celtics):
+- **Donovan Mitchell** ($33.2M)
+- 2028 2nd round pick
+
+### 2. Players/Assets being received by your team (Boston Celtics):
+- **Draymond Green** ($22.3M)
+- 2028 2nd round pick
+- 2028 2nd round pick
+
+### 3. Draft picks involved:
+- Boston Celtics sends: 1 pick(s)
+- Boston Celtics receives: 2 pick(s)
+
+### 4. Salary implications:
+- **Boston Celtics payroll after trade:** $216M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 52 → 52
+
+- **Philadelphia 76ers payroll after trade:** $208M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 70 → 69
+
+---
+
+**Summary:**  
+Boston Celtics is trading Donovan Mitchell and 1 pick(s) to Philadelphia 76ers in exchange for Draymond Green and 2 pick(s). The trade decreases Boston Celtics's payroll by $10.900000000000002M.
+AI Decision: REJECT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 11:39:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Milwaukee Bucks):
+- **Evan Mobley** ($8.9M)
+- 2025 1st round pick
+- 2024 2nd round pick
+
+### 2. Players/Assets being received by your team (Milwaukee Bucks):
+- **Giannis Antetokounmpo** ($45.6M)
+- 2025 2nd round pick
+- 2028 2nd round pick
+
+### 3. Draft picks involved:
+- Milwaukee Bucks sends: 2 pick(s)
+- Milwaukee Bucks receives: 2 pick(s)
+
+### 4. Salary implications:
+- **Milwaukee Bucks payroll after trade:** $217M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 50 → 49
+
+- **Denver Nuggets payroll after trade:** $196M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 50 → 50
+
+---
+
+**Summary:**  
+Milwaukee Bucks is trading Evan Mobley and 2 pick(s) to Denver Nuggets in exchange for Giannis Antetokounmpo and 2 pick(s). The trade increases Milwaukee Bucks's payroll by $36.7M.
+AI Decision: REJECT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 11:59:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Milwaukee Bucks):
+- **Jarrett Allen** ($20.0M)
+- **Draymond Green** ($22.3M)
+- **Joel Embiid** ($42.1M)
+- 2027 2nd round pick
+
+### 2. Players/Assets being received by your team (Milwaukee Bucks):
+- **Damian Lillard** ($45.6M)
+- **Brook Lopez** ($25.0M)
+- **Andrew Wiggins** ($24.3M)
+- 2026 2nd round pick
+- 2026 2nd round pick
+
+### 3. Draft picks involved:
+- Milwaukee Bucks sends: 1 pick(s)
+- Milwaukee Bucks receives: 2 pick(s)
+
+### 4. Salary implications:
+- **Milwaukee Bucks payroll after trade:** $214M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 68 → 67
+
+- **Golden State Warriors payroll after trade:** $217M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 70 → 70
+
+---
+
+**Summary:**  
+Milwaukee Bucks is trading Jarrett Allen, Draymond Green, Joel Embiid and 1 pick(s) to Golden State Warriors in exchange for Damian Lillard, Brook Lopez, Andrew Wiggins and 2 pick(s). The trade increases Milwaukee Bucks's payroll by $10.5M.
+AI Decision: ACCEPT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:12:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Milwaukee Bucks):
+- **Jarrett Allen** ($20.0M)
+- **Brook Lopez** ($25.0M)
+- **Khris Middleton** ($29.3M)
+- 2026 2nd round pick
+
+### 2. Players/Assets being received by your team (Milwaukee Bucks):
+- **Darius Garland** ($33.5M)
+
+
+### 3. Draft picks involved:
+- Milwaukee Bucks sends: 1 pick(s)
+- Milwaukee Bucks receives: 0 pick(s)
+
+### 4. Salary implications:
+- **Milwaukee Bucks payroll after trade:** $216M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 64 → 65
+
+- **Miami Heat payroll after trade:** $198M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 63 → 64
+
+---
+
+**Summary:**  
+Milwaukee Bucks is trading Jarrett Allen, Brook Lopez, Khris Middleton and 1 pick(s) to Miami Heat in exchange for Darius Garland and 0 pick(s). The trade decreases Milwaukee Bucks's payroll by $40.8M.
+AI Decision: ACCEPT
+User Feedback: no
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:08:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Golden State Warriors):
+- **Giannis Antetokounmpo** ($45.6M)
+- **Brook Lopez** ($25.0M)
+
+
+### 2. Players/Assets being received by your team (Golden State Warriors):
+- **Khris Middleton** ($29.3M)
+
+
+### 3. Draft picks involved:
+- Golden State Warriors sends: 0 pick(s)
+- Golden State Warriors receives: 0 pick(s)
+
+### 4. Salary implications:
+- **Golden State Warriors payroll after trade:** $191M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 66 → 66
+
+- **Cleveland Cavaliers payroll after trade:** $198M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 53 → 54
+
+---
+
+**Summary:**  
+Golden State Warriors is trading Giannis Antetokounmpo, Brook Lopez and 0 pick(s) to Cleveland Cavaliers in exchange for Khris Middleton and 0 pick(s). The trade decreases Golden State Warriors's payroll by $41.3M.
+AI Decision: REJECT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:37:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Phoenix Suns):
+- **Giannis Antetokounmpo** ($45.6M)
+- **Jalen Brunson** ($26.3M)
+- 2025 2nd round pick
+- 2027 1st round pick
+
+### 2. Players/Assets being received by your team (Phoenix Suns):
+- **Draymond Green** ($22.3M)
+- **Brook Lopez** ($25.0M)
+- 2028 2nd round pick
+- 2028 1st round pick
+
+### 3. Draft picks involved:
+- Phoenix Suns sends: 2 pick(s)
+- Phoenix Suns receives: 2 pick(s)
+
+### 4. Salary implications:
+- **Phoenix Suns payroll after trade:** $187M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 54 → 55
+
+- **Cleveland Cavaliers payroll after trade:** $210M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 56 → 57
+
+---
+
+**Summary:**  
+Phoenix Suns is trading Giannis Antetokounmpo, Jalen Brunson and 2 pick(s) to Cleveland Cavaliers in exchange for Draymond Green, Brook Lopez and 2 pick(s). The trade decreases Phoenix Suns's payroll by $24.60000000000001M.
+AI Decision: REJECT
+User Feedback: yes
+==================================================
+
+=== Trade Evaluation 2025-06-02 12:38:48 ===
+Trade Information:
+**Trade Proposal Breakdown**
+
+---
+
+### 1. Players/Assets being traded from your team (Milwaukee Bucks):
+- **Damian Lillard** ($45.6M)
+- **Joel Embiid** ($42.1M)
+- 2028 1st round pick
+- 2027 2nd round pick
+
+### 2. Players/Assets being received by your team (Milwaukee Bucks):
+- **James Harden** ($35.6M)
+- **Jarrett Allen** ($20.0M)
+- 2024 2nd round pick
+
+### 3. Draft picks involved:
+- Milwaukee Bucks sends: 2 pick(s)
+- Milwaukee Bucks receives: 1 pick(s)
+
+### 4. Salary implications:
+- **Milwaukee Bucks payroll after trade:** $217M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 63 → 62
+
+- **Philadelphia 76ers payroll after trade:** $190M
+- **Salary cap:** $140.6M
+- **Team overall rating:** 60 → 60
+
+---
+
+**Summary:**  
+Milwaukee Bucks is trading Damian Lillard, Joel Embiid and 2 pick(s) to Philadelphia 76ers in exchange for James Harden, Jarrett Allen and 1 pick(s). The trade decreases Milwaukee Bucks's payroll by $32.1M.
+AI Decision: ACCEPT
+User Feedback: yes
+==================================================
