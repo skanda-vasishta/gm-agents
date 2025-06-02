@@ -98,6 +98,24 @@ def test_example(page: Page) -> None:
     page.get_by_role("row", name="Exclude this player from counter offers 7 Damion Baugh  SG 25 42 47 $600k 2025").get_by_role("checkbox").first.check()
     page.get_by_role("row", name="Exclude this player from counter offers 7 Damion Baugh  SG 25 42 47 $600k 2025").get_by_role("checkbox").first.uncheck()
     page.get_by_role("link", name="James Bouknight").click() 
+    page = context.new_page()
+    page.goto("https://play.basketball-gm.com/l/1/trade")
+    page.get_by_role("link", name="Create a new league").click()
+    page.get_by_role("button", name="Create League Processing").click()
+    page.get_by_role("link", name="Trade Proposals").click()
+    page.get_by_role("button", name="Negotiate").first.click()
+    page.get_by_role("button", name="What would make this deal").click()
+    page.get_by_role("button", name="Propose trade").click()
+    page.get_by_role("link", name="Trading Block").click()
+    page.get_by_role("link", name="Free Agents").click()
+    page.get_by_role("row", name="Tyreek Tiller  GF 20 28 52 0").get_by_role("button").nth(2).click()
+    page.get_by_role("link", name="Trading Block").click()
+    page.get_by_role("link", name="Trade Proposals").click()
+    page.get_by_role("button", name="Negotiate").nth(1).click()
+    page.get_by_role("link", name="Trading Block").dblclick()
+    page.get_by_role("link", name="Trade Proposals").click()
+    page.get_by_role("button", name="Negotiate").nth(2).click()
+
 
 if __name__ == "__main__":
     with sync_playwright() as playwright:
