@@ -1,0 +1,14 @@
+{'current_season': 2025, 'current_phase': 'regular_season', 'team_wins': 0, 'team_losses': 0, 'salary_cap_used': 206.15, 'roster_size': 5, 'available_cap_space': 0.0, 'team_rating': 0, 'playoff_position': '14th in conference, no playoffs', 'roster_data': None, 'upcoming_schedule': None, 'trade_offers': None, 'free_agents': None, 'draft_prospects': None}
+----------------------------------------
+{'current_season': 2025, 'current_phase': 'regular_season', 'team_wins': 0, 'team_losses': 0, 'salary_cap_used': 206.15, 'roster_size': 5, 'available_cap_space': 0.0, 'team_rating': 0, 'playoff_position': '14th in conference', 'roster_data': None, 'upcoming_schedule': None, 'trade_offers': None, 'free_agents': None, 'draft_prospects': None}
+----------------------------------------
+{'current_season': 2025, 'current_phase': 'regular_season', 'team_wins': 0, 'team_losses': 0, 'salary_cap_used': 206150000.0, 'roster_size': 5, 'available_cap_space': 0.0, 'team_rating': 63, 'playoff_position': '14th in conference', 'roster_data': None, 'upcoming_schedule': None, 'trade_offers': None, 'free_agents': None, 'draft_prospects': None}
+----------------------------------------
+{'current_season': 2025, 'current_phase': 'regular_season', 'team_wins': 0, 'team_losses': 0, 'salary_cap_used': 206150000.0, 'roster_size': 5, 'available_cap_space': 0.0, 'team_rating': 63, 'playoff_position': '14th in conference', 'roster_data': None, 'upcoming_schedule': None, 'trade_offers': None, 'free_agents': None, 'draft_prospects': None}
+----------------------------------------
+{'current_season': 2025, 'current_phase': 'regular_season', 'team_wins': 0, 'team_losses': 0, 'salary_cap_used': 206150000.0, 'roster_size': 5, 'available_cap_space': 0.0, 'team_rating': 63, 'playoff_position': '14th in conference', 'roster_data': None, 'upcoming_schedule': None, 'trade_offers': None, 'free_agents': None, 'draft_prospects': None}
+----------------------------------------
+{'current_season': 2025, 'current_phase': 'preseason', 'team_wins': 0, 'team_losses': 0, 'salary_cap_used': 206.15, 'roster_size': 5, 'available_cap_space': -65.55, 'team_rating': 14, 'playoff_position': '14th in conference', 'roster_data': None, 'upcoming_schedule': None, 'trade_offers': None, 'free_agents': None, 'draft_prospects': None}
+----------------------------------------
+{'current_season': 2025, 'current_phase': 'regular_season', 'team_wins': 0, 'team_losses': 0, 'salary_cap_used': 206.15, 'roster_size': 5, 'available_cap_space': -65.55, 'team_rating': 66, 'playoff_position': '14th in conference', 'roster_data': None, 'upcoming_schedule': None, 'trade_offers': None, 'free_agents': None, 'draft_prospects': None}
+----------------------------------------

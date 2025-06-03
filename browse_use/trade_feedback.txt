@@ -1820,3 +1820,76 @@ Salary implications:
 AI Decision: ACCEPT
 Confidence: 0.74
 ==================================================
+
+=== Trade Evaluation 2025-06-02 13:42:39 ===
+Trade Information:
+Trade Proposal:
+Orlando Juice receives:
+- Damion Baugh ($600k)
+
+Charlotte Queens receives:
+- Ethan Thompson ($600k)
+
+Salary implications:
+- Orlando Juice payroll: $212.2M
+- Charlotte Queens payroll: $170.3M
+- Both teams over salary cap ($140.6M)
+AI Decision: REJECT
+Confidence: 0.15
+==================================================
+
+=== Trade Evaluation 2025-06-02 13:42:47 ===
+Trade Information:
+Trade Proposal:  
+Orlando Juice receives:  
+- Damion Baugh ($600k)  
+
+Charlotte Queens receives:  
+- Ethan Thompson ($600k)  
+
+Salary implications:  
+- Orlando Juice payroll: $212.2M  
+- Charlotte Queens payroll: $170.3M  
+- Both teams over salary cap ($140.6M)
+AI Decision: REJECT
+Confidence: 0.15
+==================================================
+
+=== Trade Evaluation 2025-06-02 15:39:57 ===
+Trade Information:
+Trade Proposal:
+
+Detroit Muscle receive:
+- Kobe Bufkin ($6.9M)
+
+Atlanta Gold Club receive:
+- Malik Beasley ($6M)
+- Jalen Duren ($600K)
+- Tiss Jenkins ($600K)
+- 2029 2nd round pick
+
+Salary implications:
+- Detroit Muscle payroll: $174.41M
+- Atlanta Gold Club payroll: $202.85M
+- Both teams over salary cap ($140.6M)
+AI Decision: ACCEPT
+Confidence: 0.04
+==================================================
+
+=== Trade Evaluation 2025-06-02 15:40:06 ===
+Trade Information:
+Trade Proposal:
+Detroit Muscle receive:
+- Clint Capela ($22.27M)
+
+Atlanta Gold Club receive:
+- Kobe Bufkin ($6.9M)
+- Ron Harper Jr. ($600k)
+
+Salary implications:
+- Detroit Muscle payroll: $189.18M
+- Atlanta Gold Club payroll: $188.08M
+- Both teams over salary cap ($140.6M)
+AI Decision: REJECT
+Confidence: 0.01
+==================================================
