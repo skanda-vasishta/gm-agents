@@ -1893,3 +1893,37 @@ Salary implications:
 AI Decision: REJECT
 Confidence: 0.01
 ==================================================
+
+=== Trade Evaluation 2025-06-03 15:53:31 ===
+Trade Information:
+Trade Proposal:  
+Team A (Toronto Raccoons) receives:  
+- Taj Gibson ($2.09M)  
+
+Team B (Charlotte Queens) receives:  
+- Garrett Temple ($2.09M)  
+
+Salary implications:  
+- Team A payroll: $205.25M  
+- Team B payroll: $170.3M  
+- Both teams over salary cap ($140.6M)
+AI Decision: REJECT
+Confidence: 0.28
+==================================================
+
+=== Trade Evaluation 2025-06-03 15:53:43 ===
+Trade Information:
+Trade Proposal:
+Toronto Raccoons receive:
+- Taj Gibson ($2.09M)
+
+Charlotte Queens receive:
+- Garrett Temple ($2.09M)
+
+Salary implications:
+- Toronto Raccoons payroll: $205.25M
+- Charlotte Queens payroll: $170.3M
+- Both teams over salary cap ($140.6M)
+AI Decision: REJECT
+Confidence: 0.48
+==================================================
