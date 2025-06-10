@@ -1,4 +1,4 @@
-# Comprehensive Report: Browser-Based Multi-Agent System for Basketball GM
+# GM Agents: Heuristic-Based, Reward-Oriented Browser Game Playing Agents
 
 ## Usage Instructions
 
